@@ -44,6 +44,8 @@ function reload() {
 function clear() {
     grid.innerHTML = ''
     createGrid()
+    sliderValue.innerHTML = (size +'x'+size);
+    sizeNew.value = size;
 }
 
 //updating grid
