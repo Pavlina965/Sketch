@@ -38,11 +38,13 @@ a:hover{
     justify-content: center;
     width:500px;
     height: 500px;
-    grid-template-columns: repeat(16,1fr);
-    grid-template-rows: repeat(16,1fr);
     background-color: #bccbde;
     margin: 1em;
 
+}
+#sliderValue{
+    display: flex;
+    justify-content: center;
 }
 .Grid-elements:hover{
     background-color: #0e79dd;
